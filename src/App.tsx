@@ -7,7 +7,13 @@ const WA_URL = 'https://wa.me/966548142982'
 
 export default function App() {
   return (
-    <div className="page-root" dir="rtl" lang="ar">
+    <div 
+      className="page-root" 
+      dir="rtl" 
+      lang="ar"
+      onClick={() => window.open(WA_URL, '_blank', 'noopener,noreferrer')}
+      style={{ cursor: 'pointer' }}
+    >
       {/* ── Animated background ── */}
       <div className="page-bg" />
 
@@ -77,10 +83,7 @@ export default function App() {
         </motion.span>
 
         {/* WhatsApp Button */}
-        <motion.a
-          href={WA_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+        <motion.div
           className="wa-btn-wrapper"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -97,7 +100,7 @@ export default function App() {
             <FiArrowUpRight className="wa-arrow slide-out" />
             <FiArrowUpRight className="wa-arrow slide-in" />
           </div>
-        </motion.a>
+        </motion.div>
 
       </div>
     </div>
