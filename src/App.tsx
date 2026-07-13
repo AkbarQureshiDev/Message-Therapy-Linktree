@@ -91,7 +91,7 @@ export default function App() {
           <div className="wa-glow" />
           <div className="wa-pill">
             <FaWhatsapp className="wa-icon" />
-            تواصل عبر واتساب
+            Chat on WhatsApp
           </div>
           <div className="wa-circle">
             <FiArrowUpRight className="wa-arrow slide-out" />
