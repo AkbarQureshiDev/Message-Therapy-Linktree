@@ -22,7 +22,7 @@ export default function MagneticButtonDemo() {
       {/* Main button pill */}
       <div className="relative z-10 flex items-center justify-center flex-1 h-full flex-row gap-[9px] bg-white text-black rounded-l-full py-3 px-6 sm:py-3.5 sm:px-[26px] text-sm sm:text-[15px] font-bold transition-colors duration-400 group-hover:bg-[#25d366] group-hover:text-white whitespace-nowrap">
         <FaWhatsapp size={21} className="text-[#25d366] group-hover:text-white transition-colors duration-400 flex-shrink-0" />
-        <span>Chat on WhatsApp</span>
+        <span>+966 54 814 2982</span>
       </div>
       
       {/* Sliding arrow circle */}
